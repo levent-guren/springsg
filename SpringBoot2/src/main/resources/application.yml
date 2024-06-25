@@ -1,0 +1,12 @@
+spring:
+ application:
+   name: SpringBoot2
+server:
+   port: 8090
+   http2:
+      enabled: false
+   servlet:
+      encoding:
+         enabled: true
+         force-request: true
+         charset: UTF-8
